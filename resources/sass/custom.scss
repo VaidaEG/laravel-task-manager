@@ -1,0 +1,155 @@
+body {
+    background: #1c5451;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.card-body {
+    background-color:  #e8f4ea;
+    select.form-control.body-select {
+        background: #b8d8be;
+        color: #212529;
+    }
+}
+div.card-header {
+    background-color:  #b8d8be;
+    color: #212529;
+    text-shadow: 2px 3px 2px #4747477c;
+    padding-left: 40px;
+    padding-right: 40px;
+    h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+    h3 {
+        font-weight: bold;
+    }
+    select.form-control.header-select {
+        background: #e8f4ea;
+        color: #212529;
+        width: 80%;
+    }
+}
+li.list-group-item.list-line.d-flex.justify-content-between.color {
+    background-color:  #b8d8be;
+    transition: all 0.3s;
+    color: #212529;
+
+}
+li.list-group-item.list-line.d-flex.justify-content-between.color:hover {
+    background-color: #e8f4ea;
+    transform: scale(1.02);
+    color: #212529;
+
+}
+nav.navbar.navbar-expand-md.navbar-light.bg-white.shadow-sm.color {
+    background-color: #b8d8be !important;
+}
+input.form-control {
+    background: #b8d8be;
+    color: #212529;
+    border: none;
+}
+input.form-control:focus {
+    background: #b8d8be;
+    color: #212529;
+    border: none;
+}
+div.note-editable {
+    background: #b8d8be;
+    color: #212529;
+}
+div.card {
+    border: none;
+    box-shadow: 0px 0px 20px 10px #092b29;
+}
+a.btn.btn-primary {
+    background: #1c5451;
+    border: none;
+    height: 37px;
+    width: 37px;
+    box-shadow: 2px 2px 5px 2px #092b29;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+a.btn.btn-primary.crud {
+    height: 37px;
+    width: 37px;
+}
+
+a.btn.btn-primary:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+button.btn.btn-primary {
+    background: #1c5451;
+    border: none;
+    box-shadow: 2px 2px 5px 2px #092b29;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+button.btn.btn-primary.crud {
+    height: 37px;
+    width: 37px;
+}
+button.btn.btn-primary:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+button.btn.btn-danger {
+    height: 37px;
+    width: 37px;
+    box-shadow: 2px 2px 5px 2px #092b29;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+button.btn.btn-danger:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+select.form-control {
+    background: #b8d8be;
+    border: none;
+}
+select.form-control:focus {
+    background: #b8d8be;
+    color: #212529;
+    border: none;
+}
+div.dropdown-menu.dropdown-menu-right.show {
+    background-color: #e8f4ea;
+    a {
+        color: #212529;
+    }
+    a:hover {
+        background-color:#b8d8be;
+    }
+}
+a.navbar-brand {
+    font-weight: bold;
+    text-shadow: 2px 3px 2px #4747477c;
+}
+div.d-flex.justify-content-end button {
+    margin-bottom: 16px;
+    margin-right: 5px;
+}
+@media (max-width: 1050px) {
+    div.card-header select.form-control.header-select {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    div.card-header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    div.d-flex.justify-content-center.buttons {
+        width: 100%;
+    }
+    li.list-group-item.list-line.d-flex.justify-content-between.color {
+        flex-direction: column;
+        div.list-content {
+            text-align: center;
+        }
+    }
+}
